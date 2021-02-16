@@ -48,25 +48,11 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <Link
-                to="/members"
-                className="nav-links"
-                onClick={closeMobileMenu}
-              >
-                Membership
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                to="/committees"
+                to="/commitees"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
                 Committees
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link to="/csr" className="nav-links" onClick={closeMobileMenu}>
-                CSR
               </Link>
             </li>
             <li className="nav-item">
