@@ -68,6 +68,48 @@ function Footer() {
             </Link>
           </div>
           <small className="website-rights">TRVL © 2021</small>
+          <div className="social-icons">
+            <Link
+              className="social-icon-link Facebook"
+              to="/"
+              target="_blank"
+              aria-label="Facebook"
+            >
+              <i className="fab fa-facebook-f"></i>
+            </Link>
+            <Link
+              className="social-icon-link Instagram"
+              to="/"
+              target="_blank"
+              aria-label="Instagram"
+            >
+              <i className="fab fa-instagram"></i>
+            </Link>
+            <Link
+              className="social-icon-link Youtube"
+              to="/"
+              target="_blank"
+              aria-label="Youtube"
+            >
+              <i className="fab fa-youtube"></i>
+            </Link>
+            <Link
+              className="social-icon-link Twitter"
+              to="/"
+              target="_blank"
+              aria-label="Twitter"
+            >
+              <i className="fab fa-twitter"></i>
+            </Link>
+            <Link
+              className="social-icon-link LinkedIn"
+              to="/"
+              target="_blank"
+              aria-label="LinkedIn"
+            >
+              <i className="fab fa-linkedin"></i>
+            </Link>
+          </div>
         </div>
       </section>
     </div>
