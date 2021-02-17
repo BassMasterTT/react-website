@@ -6,11 +6,9 @@
 }
 
 .home,
-.about,
-.members,
-.comittees,
-.csr,
-.join {
+.services,
+.products,
+.sign-up {
   display: flex;
   height: 90vh;
   align-items: center;
@@ -18,7 +16,7 @@
   font-size: 3rem;
 }
 
-.about {
+.services {
   background-image: url('./images/img-2.jpg');
   background-position: center;
   background-size: cover;
@@ -27,7 +25,7 @@
   font-size: 100px;
 }
 
-.members {
+.products {
   background-image: url('./images/img-1.jpg');
   background-position: center;
   background-size: fill;
@@ -36,7 +34,7 @@
   font-size: 100px;
 }
 
-.join {
+.sign-up {
   background-image: url('./images/img-8.jpg');
   background-position: center;
   background-size: cover;
